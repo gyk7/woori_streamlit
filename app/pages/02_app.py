@@ -39,7 +39,7 @@ for food_ in food_list :
         img_index = food_list.index(food_)
 
 if search != '' :
-        st.image(img_index)
+        st.image(img_list[img_index])
 
 st.number_input('Enter a number')
 st.text_area('Area for textual entry')
